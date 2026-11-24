@@ -1,3 +1,8 @@
+# PyTorch with CUDA 12.8 (also runs on CPU if no NVIDIA GPU is found).
+# The extra index is where pip finds the CUDA build; the default PyPI one is CPU-only on Windows.
+--extra-index-url https://download.pytorch.org/whl/cu128
+torch==2.11.0+cu128
+
 # Data handling
 numpy
 pandas
