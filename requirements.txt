@@ -1,0 +1,23 @@
+# Data handling
+numpy
+pandas
+scipy
+
+# Machine learning utilities (scalers, metrics)
+scikit-learn
+
+# Plots
+matplotlib
+
+# IMD weather data (rainfall and temperature)
+imdlib
+
+# Notebooks inside VS Code
+ipykernel
+jupyter
+
+# Progress bars during training
+tqdm
+
+# Reading .xlsx station files
+openpyxl

@@ -1,0 +1,34 @@
+docs/
+# Virtual environment
+.venv/
+venv/
+
+# Python cache
+__pycache__/
+*.pyc
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Data (large, and can be re-downloaded from India-WRIS and IMD)
+data/raw/
+data/clean/
+
+# Model checkpoints (large, re-trainable)
+*.pt
+*.pth
+
+# IMD downloads from imdlib
+*.grd
+
+# Demo app (later)
+app/node_modules/
+app/dist/
+
+# Editor and OS junk
+.vscode/
+.DS_Store
+Thumbs.db
+
+# Secrets, if you ever add any
+.env
